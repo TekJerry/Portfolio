@@ -1,37 +1,24 @@
 import React from "react";
+import "./AboutMe.css";
 
 export default function AboutMe() {
   return (
-    <div>
+    <div id="abouto" className="about-who">
       <div>
-        <h1 className="hello">Hello!</h1>
+        <h1 className="hello"> About Me</h1>
       </div>
       <div className="brand">
-      <p>
-        Jerry is a quick-learner and communicative full-stack developer with a
-        background in customer service. A dedicated and responsible person, with
-        the drive to learn as much as possible. Creative when it comes to
-        problem solving and finding a solution that works for everyone.
-        </p>
-      </div>
-      <div className="hobbies">
-      <p>He also has a ton of hobbies, such as</p>
-      <ul>
-        <li>Fishing</li>
-        <li>Anime</li>
-        <li>Poker</li>
-        <li>Video Games</li>
-        <li>Billiards</li>
-        <li>Editing Videos</li>
-        <li>Chess</li>
-      </ul>
-      </div>
-      <div className="tbh">
-      <p>
-        to be honest the list goes on and on. That has to do with the curiosity
-        in Jerry, once he sees something that seems fun for him, he will give it
-        his all to learn about it. Mainly all the projects he has on this page
-        are of stuff he finds interesting.
+        <p className="start-about">
+          Welcome to my portfolio page! I am a
+          quick-learner and communicative full-stack developer with a background
+          in customer service. A dedicated and responsible person, with the
+          drive to learn as much as possible. I am creative when it comes to
+          problem solving and finding a solution that works for everyone. Most
+          of my projects are based on hobbies. I have a quite a number of
+          hobbies, a few of them are fishing, anime, poker, video games,
+          billiards, editing videos, and chess to be honest the list goes on and
+          on. I guess that is just the curiosity in me, once I see something
+          that seems fun or interesting, I will give it my all to learn it.
         </p>
       </div>
     </div>

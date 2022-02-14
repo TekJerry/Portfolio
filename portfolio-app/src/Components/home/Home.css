@@ -1,0 +1,32 @@
+.main-body {
+    background:rgb(0, 0, 0);
+}
+
+.my-name-is {
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh;
+    height: 40vh;
+
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 70px;
+    color: lime;
+    text-shadow: rgb(255, 255, 255) 5px 8px;
+    
+}
+
+.my-name {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    color: lime;
+    text-shadow: rgb(255, 255, 255) 2px 2px;
+    
+}
+
+
+

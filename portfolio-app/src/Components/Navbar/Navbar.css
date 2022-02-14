@@ -1,0 +1,29 @@
+.nav {
+    display: flex;
+    justify-content: center;
+}
+.links{
+    margin-right: 5vw;
+    margin-left: 5vw;
+    font-size: 25px;
+    background-color: rgb(125, 3, 195);
+    padding: 5px;
+    margin-top: 3vh;
+    border-radius: 10px;
+    border: lime solid 3px;
+    color:rgb(224, 238, 250);
+}
+
+.links:hover {
+    background-color: LIME;
+    border: solid 3px rgb(125, 3, 195);
+    color:black;
+}
+
+a{
+    color: white;
+}
+
+a:hover {
+    color: black;
+}

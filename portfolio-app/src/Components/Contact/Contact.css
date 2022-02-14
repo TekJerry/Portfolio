@@ -1,0 +1,52 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20vh;
+    flex-flow: column nowrap;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+input {
+    width: 50vw;
+    height: 8vh;
+    margin: 2vh;
+    font-size: 25px;
+    border: 6px solid lime;
+    box-shadow: 10px 10px  rgb(125, 3, 195);
+    border-radius: 20px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.enter {
+    width: 30vw;
+    height: 8vh;
+    margin: 2vh;
+    border: 6px solid lime;
+    box-shadow: 10px 10px  rgb(125, 3, 195);
+    border-radius: 20px;
+    transition: 0.3s;
+    animation: ease-in;
+    font-size: 25px;
+    font-family: 'Share Tech', sans-serif;
+}
+
+.enter:hover {
+    width: 30vw;
+    height: 8vh;
+    margin: 2vh;
+    border: 6px solid rgb(125, 3, 195);
+    box-shadow: 10px 10px  lime;
+    border-radius: 20px;
+    cursor: pointer;
+    transform: scale(1.06);
+    background-color: black;
+    color:whitesmoke;
+    font-size: 25px;
+    font-family: 'Share Tech', sans-serif;
+    }

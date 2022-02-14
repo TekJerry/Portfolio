@@ -1,0 +1,35 @@
+.brand {
+ background-color: black;
+ background-size: contain;
+ display: flex;
+ justify-content: center;
+ padding: 3rem;
+ border: lime solid 6px;
+ border-radius: 50px;
+ box-shadow: 10px 10px  rgb(125, 3, 195);
+}
+
+.about-who {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.start-about {
+    width: 33vw;
+    font-weight: 600;
+    font-size: 21px;
+    font-family: 'Play', sans-serif;
+    color: white;
+   
+}
+
+h1 {
+    font-size: 100px;
+    color: white;
+    font-family: 'Share Tech', sans-serif;
+    text-shadow: lime 5px 8px;
+    
+}

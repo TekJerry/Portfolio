@@ -1,0 +1,115 @@
+.multiple-containers {
+    display: flex;
+    flex-flow: row wrap;
+    /* border: 2px solid red; */
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+
+
+.multiple-containers p {
+    background-color: lime;
+    border: solid 6px white;
+    position:relative;
+    left: 8px;
+    bottom: 10px;
+    max-width: 15vw; 
+    height: 10vh;
+    font-size: 30px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Share Tech', sans-serif;
+    border-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.project-container {
+    border: 6px solid lime;
+    width: 45vw;
+    height: 60vh;
+    margin: 15px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 2%;
+    overflow: hidden;
+    box-shadow: 10px 10px  rgb(125, 3, 195);
+    transition: 0.3s;
+    animation: ease-in;
+
+}
+
+.project-container:hover {
+    transform: scale(1.06);
+    box-shadow: 1px 1px  rgb(125, 3, 195);
+}
+
+.project1-image { 
+    background: url("https://i.imgur.com/h5KHGmv.png");
+    background-size:cover;
+    height: 30vh;
+   
+    border-bottom: 6px solid lime;
+    border-top-left-radius: 1% ;
+    border-top-right-radius: 1% ;
+    
+    
+
+}
+.project2-image { 
+    background: url("https://i.imgur.com/nXv9OWO.png");
+    background-size:cover;
+    height: 30vh;
+    border-bottom: 6px solid lime;
+    border-top-left-radius: 1% ;
+    border-top-right-radius: 1% ;
+    
+    
+}
+.project3-image {  
+    background: url("https://i.imgur.com/Ob6WmCW.png");
+    background-size:cover;
+    height: 30vh;
+   
+    border-bottom: 6px solid lime;
+    border-top-left-radius: 1% ;
+    border-top-right-radius: 1% ;
+    
+    
+}
+.project4-image { 
+    background: url("https://i.imgur.com/GfbzBBS.png");
+    background-size:cover;
+    height: 30vh;
+   
+    border-bottom: 6px solid lime;
+    border-top-left-radius: 1% ;
+    border-top-right-radius: 1% ;
+    
+    
+}
+
+.project-details {
+    font-size:22px;
+    color:rgb(255, 255, 255);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    font-family: 'Play', sans-serif;
+}
+article {
+    display: flex;
+    text-align: center;
+    margin: 4px;
+    
+}
